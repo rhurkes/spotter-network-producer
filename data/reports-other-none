@@ -1,0 +1,12 @@
+  
+  
+Refresh: 1
+Threshold: 999
+Title: Spotter Network - Reports Only
+Font: 1, 11, 0, "Courier New"
+IconFile: 3, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports.png"
+IconFile: 4, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_30.png"
+IconFile: 5, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_60.png"
+
+Icon: 40.052601,-76.299797,000,4,8,"Reported By: Test User\nOther - See Note\nTime: 2019-02-20 16:33:00 UTC\nNotes: None"
+

@@ -1,0 +1,34 @@
+  
+  
+Refresh: 1
+Threshold: 999
+Title: Spotter Network - Reports Only
+Font: 1, 11, 0, "Courier New"
+IconFile: 3, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports.png"
+IconFile: 4, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_30.png"
+IconFile: 5, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_60.png"
+
+Icon: 47.617706,-111.215248,000,4,4,"Reported By: Will Dupe\nHail\nTime: 2018-09-20 22:49:29 UTC\nSize: 0.75" (Penny)\nNotes: None"
+Icon: 41.796097,-84.748924,000,5,3,"Reported By: Test User\nRotating Wall Cloud\nTime: 2018-09-20 21:43:37 UTC\nNotes: wall cloud was prominent with rotation for about 5 minutes. is dissipated now"
+Icon: 41.796097,-84.748924,000,5,3,"Reported By: Test User\nRotating Wall Cloud\nTime: 2018-09-20 21:41:21 UTC\nNotes: None"
+Icon: 35.851399,-90.708198,000,3,8,"Reported By: Will Dupe\nOther - See Note\nTime: 2018-11-14 20:22:00 UTC\nNotes: i got snow and a little of sleet"
+Icon: 41.338715,-96.059563,000,3,5,"Reported By: Will Dupe\nHigh Wind\nTime: 2018-09-21 00:34:00 UTC\n60 mphNotes: Wind gusting to 63mph"
+Icon: 41.230400,-95.850403,000,3,3,"Reported By: Will Dupe\nNot Rotating Wall Cloud\nTime: 2018-09-21 00:34:00 UTC\nNotes: None"
+Icon: 44.174999,-93.682098,000,3,8,"Reported By: Test User\nOther - See Note\nTime: 2018-09-21 00:32:00 UTC\nNotes: Structure damage at this location.  Garage doors blown in on house causing roof damage as well.  Metal roof peeled back on out building.  Tree de-branching evident just to NE of this location.  .25-.5 mile north of here on East Elysian Lake Rd the road is closed due to power lines down and several trees down.  Snow plow on road being used to clear debris from roadway."
+Icon: 41.338901,-96.059708,000,3,5,"Reported By: Will Dupe\nHigh Wind\nTime: 2018-09-21 00:26:06 UTC\n50 mphNotes: None"
+Icon: 44.011002,-93.497002,000,3,8,"Reported By: Test User\nOther - See Note\nTime: 2018-09-20 23:59:00 UTC\nNotes: Several trees down in this area.  Top 6 feet of a power pole is also snapped off at this location.  Law enforcement just arriving on scene.  Low power lines due to power pole snapped so tall vehicles can not pass."
+Icon: 44.145599,-94.082901,000,4,8,"Reported By: Test User\nOther - See Note\nTime: 2018-09-20 23:52:00 UTC\nNotes: 12 inch diameter tree down across hwy 169 (since cleared)"
+Icon: 44.219643,-93.686424,000,4,5,"Reported By: Test User\nHigh Wind\nTime: 2018-09-20 23:38:32 UTC\n50 mphNotes: None"
+Icon: 44.787052,-93.545754,000,4,5,"Reported By: Test User\nHigh Wind\nTime: 2018-09-20 23:32:00 UTC\n80 mph [Measured]\nNotes: 1W Shakopee- 85MPH wind gust measured"
+Icon: 43.890999,-93.773003,000,4,8,"Reported By: Test User\nOther - See Note\nTime: 2018-09-20 23:26:00 UTC\nNotes: Several 4-6 inch branches down at this location."
+Icon: 41.686844,-86.250534,000,3,7,"Reported By: Test User\nFlash Flood\nTime: 2018-09-20 21:09:58 UTC\nNotes: Standing water on multiple streets in and north of downtown South Bend."
+Icon: 38.257008,-101.269135,000,3,6,"Reported By: Test User\nFlooding\nTime: 2018-09-20 20:44:08 UTC\nNotes: poring rain roads covered"
+Icon: 44.344002,-93.955956,000,5,4,"Reported By: Test User\nHail\nTime: 2018-09-20 18:25:08 UTC\nSize: Notes: None"
+Icon: 34.957245,-80.675926,000,4,6,"Reported By: Test User\nFlooding\nTime: 2018-09-16 18:00:56 UTC\nNotes: Flooding at bridge going across little twelve mile creek. Low-lying area along road flooded out. Flooding is along Billy Howey road near Napa Valley Drive."
+Icon: 34.268002,-77.782997,000,4,8,"Reported By: Test User\nOther - See Note\nTime: 2018-09-13 23:20:00 UTC\nNotes: large tree down in middle of road"
+Icon: 27.859406,-82.205658,000,5,4,"Reported By: Test User\nHail\nTime: 2018-09-13 22:28:00 UTC\nSize: 0.75" (Penny)\nNotes: None"
+Icon: 39.604599,-76.996696,000,3,6,"Reported By: Test User\nFlooding\nTime: 2018-09-09 18:38:00 UTC\nNotes: update on roads closed from flooding. had 9 earlier  now carroll couny md has 13 roads flooded and closed"
+Icon: 39.540001,-77.099998,000,4,6,"Reported By: Test User\nFlooding\nTime: 2018-09-09 17:23:00 UTC\nNotes: in carroll county md we have so far 9 roads that are closed due to flooding with rain still falling."
+Icon: 43.112000,-94.610001,000,3,6,"Reported By: Will Dupe\nFlooding\nTime: 2018-09-20 22:58:00 UTC\nNotes: Water over road on US 18"
+Icon: 43.112000,-94.639999,000,3,5,"Reported By: Test User\nHigh Wind\nTime: 2018-09-20 22:52:00 UTC\n60 mph [Measured]\nNotes: Strong winds measured at 60mph with anemometer"
+

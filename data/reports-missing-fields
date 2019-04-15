@@ -1,0 +1,18 @@
+  
+  
+Refresh: 1
+Threshold: 999
+Title: Spotter Network - Reports Only
+Font: 1, 11, 0, "Courier New"
+IconFile: 3, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports.png"
+IconFile: 4, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_30.png"
+IconFile: 5, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_60.png"
+
+Icon: no captures
+Icon: no lat,-111.215248,000,4,4,"Reported By: Test User\nHail\nTime: 2018-09-20 22:49:29 UTC\nSize: 0.75" (Penny)\nNotes: None"
+Icon: 41.796097,no lon,000,5,3,"Reported By: Test User\nRotating Wall Cloud\nTime: 2018-09-20 21:43:37 UTC\nNotes: wall cloud was prominent with rotation for about 5 minutes. is dissipated now"
+Icon: 41.796097,-84.748924,000,5,no hazard type,"Reported By: Test User\nRotating Wall Cloud\nTime: 2018-09-20 21:41:21 UTC\nNotes: None"
+Icon: 35.851399,-90.708198,000,3,8,"no reported\nOther - See Note\nTime: 2018-11-14 20:22:00 UTC\nNotes: i got snow and a little of sleet"  
+Icon: 41.338715,-96.059563,000,3,5,"Reported By: Test User\nHigh Wind\nTime: 2018-09-21 00:34:00 UTC\n60 mphNno notes"
+Icon: 41.230400,-95.850403,000,3,3,"Reported By: Test User\nNot Rotating Wall Cloud\nTime: no ts UTC\nNotes: None"
+

@@ -1,0 +1,11 @@
+  
+  
+Refresh: 1
+Threshold: 999
+Title: Spotter Network - Reports Only
+Font: 1, 11, 0, "Courier New"
+IconFile: 3, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports.png"
+IconFile: 4, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_30.png"
+IconFile: 5, 22, 22, 11, 11, "http://www.spotternetwork.org/icon/sn_reports_60.png"
+
+  
