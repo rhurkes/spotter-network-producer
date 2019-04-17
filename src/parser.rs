@@ -74,7 +74,7 @@ impl ReportParser {
             .timestamp() as u64
             * 1_000_000;
 
-        let summary = if notes == "None" {
+        let text = if notes == "None" {
             format!("{} reported by {}", hazard.to_string(), reporter)
         } else {
             format!("{} reported by {}. {}", hazard.to_string(), reporter, notes)
@@ -92,8 +92,7 @@ impl ReportParser {
             md: None,
             outlook: None,
             report: Some(report),
-            summary,
-            text: None,
+            text: Some(text),
             title,
             valid_ts: None,
             warning: None,
@@ -159,10 +158,10 @@ mod tests {
                     was_measured: Some(true),
                     report_ts: None
                 }),
-                summary:
+                text: Some(
                     "Wind reported by Test Human. Strong winds measured at 60mph with anemometer"
-                        .to_string(),
-                text: None,
+                        .to_string()
+                ),
                 title: "Report: Wind".to_string(),
                 valid_ts: None,
                 warning: None,
