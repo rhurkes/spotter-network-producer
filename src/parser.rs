@@ -61,6 +61,7 @@ impl ReportParser {
         }
 
         let location = Some(Location {
+            county: None,
             wfo: None,
             point: Some(Coordinates {
                 lat: captures.name("lat").unwrap().as_str().parse()?,
@@ -141,6 +142,7 @@ mod tests {
                 image_uri: None,
                 ingest_ts: 0,
                 location: Some(Location {
+                    county: None,
                     wfo: None,
                     point: Some(Coordinates {
                         lat: 43.112,

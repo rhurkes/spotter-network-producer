@@ -44,9 +44,7 @@ impl Hazard {
             Hazard::Wind => HazardType::Wind,
             Hazard::Flood => HazardType::Flood,
             Hazard::FlashFlood => HazardType::Flood,
-            Hazard::Other => HazardType::Other {
-                kind: "SN Other".to_string(),
-            },
+            Hazard::Other => HazardType::Other,
             Hazard::FreezingRain => HazardType::FreezingRain,
             Hazard::Snow => HazardType::Snow,
         }

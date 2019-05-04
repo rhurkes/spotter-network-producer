@@ -68,7 +68,7 @@ fn main() {
                         Ok(event) => {
                             if event.is_some() {
                                 match store_client.put_event(&event.unwrap()) {
-                                    Ok(_) => (),
+                                    Ok(_) => info!(logger, "stored event";),
                                     Err(e) => {
                                         let reason = format!("unable to store event: {}", e);
                                         error!(logger, "processing"; "reason" => reason);
