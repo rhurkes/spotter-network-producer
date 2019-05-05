@@ -51,12 +51,17 @@ impl ReportParser {
 
         let mph_cap = captures.name("mph");
         let size_cap = captures.name("size");
+        let mut title = format!("Report: {}", hazard.to_string());
 
         if mph_cap.is_some() {
-            report.magnitude = Some(mph_cap.unwrap().as_str().parse()?);
+            let mph = mph_cap.unwrap().as_str().parse()?;
+            title = format!("Report: {}mph {}", mph, hazard.to_string());
+            report.magnitude = Some(mph);
             report.units = Some(Units::Mph);
         } else if size_cap.is_some() {
-            report.magnitude = Some(size_cap.unwrap().as_str().parse()?);
+            let size = size_cap.unwrap().as_str().parse()?;
+            title = format!("Report: {}\" {}", size, hazard.to_string());
+            report.magnitude = Some(size);
             report.units = Some(Units::Inches);
         }
 
@@ -80,7 +85,6 @@ impl ReportParser {
         } else {
             format!("{} reported by {}. {}", hazard.to_string(), reporter, notes)
         };
-        let title = format!("Report: {}", hazard.to_string());
 
         let event = Event {
             event_ts,
@@ -164,7 +168,7 @@ mod tests {
                     "Wind reported by Test Human. Strong winds measured at 60mph with anemometer"
                         .to_string()
                 ),
-                title: "Report: Wind".to_string(),
+                title: "Report: 60mph Wind".to_string(),
                 valid_ts: None,
                 warning: None,
                 watch: None
