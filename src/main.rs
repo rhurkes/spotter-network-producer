@@ -13,7 +13,6 @@ use reqwest::{header, Client, StatusCode};
 use std::io::Read;
 use std::thread;
 use std::time::Duration;
-use wx::domain::{FetchFailure, WxApp};
 use wx::error::{Error, WxError};
 use wx::util::Logger;
 
@@ -82,11 +81,6 @@ fn main() {
             }
             Err(e) => {
                 warn!(logger, "fetch_reports"; "error" => e.to_string());
-                // let failure = FetchFailure {
-                //     app: WxApp::SpotterNetworkLoader,
-                //     ingest_ts: 0,
-                // };
-                // store_client.put_fetch_failure(&failure).unwrap();
             }
         }
 
