@@ -51,6 +51,7 @@ fn main() {
     let mut seen: FnvHashSet<String> = FnvHashSet::default();
 
     info!(logger, "initializing"; "config" => serde_json::to_string(&config).unwrap());
+    // TODO test loading non-utf8 file and figure out where it breaks in this module
 
     loop {
         let response = fetch_reports(&http_client, &config.api_url, &config.user_agent);
@@ -81,11 +82,11 @@ fn main() {
             }
             Err(e) => {
                 warn!(logger, "fetch_reports"; "error" => e.to_string());
-                let failure = FetchFailure {
-                    app: WxApp::SpotterNetworkLoader,
-                    ingest_ts: 0,
-                };
-                store_client.put_fetch_failure(&failure).unwrap();
+                // let failure = FetchFailure {
+                //     app: WxApp::SpotterNetworkLoader,
+                //     ingest_ts: 0,
+                // };
+                // store_client.put_fetch_failure(&failure).unwrap();
             }
         }
 
