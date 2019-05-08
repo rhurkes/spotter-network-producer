@@ -122,11 +122,14 @@ fn fetch_reports(client: &Client, url: &str, user_agent: &str) -> Result<String,
             return Err(Error::Wx(<WxError>::new(&reason)));
         }
     }
-
-    let mut body = String::new();
-    response.read_to_string(&mut body)?;
-
-    Ok(body)
+    
+    match response.text() {
+        Ok(text) => Ok(text),
+        Err(_) => {
+            let reason = format!("Unable to read text");
+            return Err(Error::Wx(<WxError>::new(&reason)));
+        }
+    }
 }
 
 /**
