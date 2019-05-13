@@ -10,7 +10,6 @@ mod parser;
 use self::parser::ReportParser;
 use fnv::FnvHashSet;
 use reqwest::{header, Client, StatusCode};
-use std::io::Read;
 use std::thread;
 use std::time::Duration;
 use wx::error::{Error, WxError};
@@ -147,6 +146,7 @@ fn normalize_line(line: &str) -> String {
 mod tests {
     use super::*;
     use std::fs::File;
+    use std::io::Read;
 
     #[test]
     fn normalize_line_should_zero_icon_digit() {

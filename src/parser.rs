@@ -90,8 +90,7 @@ impl ReportParser {
             event_ts,
             event_type: EventType::SnReport,
             expires_ts: None,
-            fetch_status: None,
-            image_uri: None,
+            ext_uri: None,
             ingest_ts: 0, // set when storing
             location,
             md: None,
@@ -142,8 +141,7 @@ mod tests {
                 event_ts: 1537483920000000,
                 event_type: EventType::SnReport,
                 expires_ts: None,
-                fetch_status: None,
-                image_uri: None,
+                ext_uri: None,
                 ingest_ts: 0,
                 location: Some(Location {
                     county: None,
